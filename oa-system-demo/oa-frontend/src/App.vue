@@ -1,0 +1,10 @@
+<template>
+  <div id="app">
+    <AppHeader />
+    <router-view></router-view>
+  </div>
+</template>
+
+<script setup>
+import AppHeader from './views/AppHeaderView.vue'
+</script>
